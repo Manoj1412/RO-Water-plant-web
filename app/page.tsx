@@ -131,7 +131,7 @@ export default function Home() {
                   <div className="p-4">
                     <h3 className="font-bold text-sm sm:text-base md:text-lg mb-2">{product.name}</h3>
                     <p className="text-muted-foreground text-xs mb-3">{product.capacity}</p>
-                    <p className="text-xl sm:text-2xl font-bold text-primary mb-4">₹{product.price.toLocaleString()}</p>
+                    <p className="text-xl sm:text-2xl font-bold text-primary mb-4">₹{product.price.toLocaleString('en-IN')}</p>
                     <Link
                       href="/equipment"
                       className="block w-full bg-primary text-primary-foreground py-2 rounded-lg text-center hover:opacity-90 transition"
