@@ -10,10 +10,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "AquaPure - RO Water Purification Solutions",
+  title: "Unique Enterprises - RO Water Purification Solutions",
   description:
     "Premium RO water purifiers, repair services, and daily water subscriptions. Get pure drinking water with our advanced water purification systems.",
-  generator: "v0.app",
   icons: {
     icon: [
       {
